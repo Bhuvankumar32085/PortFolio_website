@@ -28,7 +28,7 @@ const Signup = () => {
     setLoading(true);
     try {
       const res = await axios.post(
-        "http://localhost:8000/api/user/signup",
+        "https://portfolio-website-tnpr.onrender.com/user/signup",
         input,
         { withCredentials: true }
       );

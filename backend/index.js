@@ -14,7 +14,7 @@ const PORT=process.env.PORT || 3000;
 
 app.use(cors(
     {
-        origin: process.env.FRONTEND_URL || 'http://localhost:5173',
+        origin:'https://portfolio-website-tnpr.onrender.com',
         credentials: true,
     }
 ));

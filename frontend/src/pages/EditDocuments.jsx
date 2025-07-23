@@ -32,7 +32,7 @@ const EditDocument = () => {
 
     try {
       const res = await axios.post(
-        "http://localhost:8000/api/image/upload-images",
+        "https://portfolio-website-tnpr.onrender.com/image/upload-images",
         formData,
         {
           withCredentials: true,

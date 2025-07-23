@@ -25,7 +25,7 @@ const Edit = () => {
 
     try {
       const res = await axios.post(
-        "http://localhost:8000/api/user/update-profile",
+        "https://portfolio-website-tnpr.onrender.com/user/update-profile",
         input,
         {
           withCredentials: true,

@@ -11,7 +11,7 @@ const useGetAdmin = () => {
     const fetchAdmin = async () => {
       try {
         const res = await axios.get(
-          "http://localhost:8000/api/user/get-admin",
+          "https://portfolio-website-tnpr.onrender.com/user/get-admin",
           {
             withCredentials: true,
           }

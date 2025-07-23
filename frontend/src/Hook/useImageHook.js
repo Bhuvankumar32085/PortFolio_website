@@ -11,7 +11,7 @@ const useGetImages = () => {
     const fetchAllImages = async () => {
       try {
         const res = await axios.get(
-          "http://localhost:8000/api/image/get-images",
+          "https://portfolio-website-tnpr.onrender.com/image/get-images",
           { withCredentials: true }
         );
         if (res.data?.success) {
