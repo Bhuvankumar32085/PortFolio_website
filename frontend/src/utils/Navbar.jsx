@@ -25,7 +25,7 @@ const Navbar = () => {
 
   const handleLogout = async () => {
     try {
-      const res = await axios.get("https://portfolio-website-tnpr.onrender.com/user/logout", {
+      const res = await axios.get("https://portfolio-website-tnpr.onrender.com/api/user/logout", {
         withCredentials: true,
       });
       if (res.data.success === true) {

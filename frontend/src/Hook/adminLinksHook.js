@@ -10,7 +10,7 @@ const useAdminLinks = () => {
   useEffect(() => {
     const fetchAllLinks = async () => {
       try {
-        const res = await axios.get("https://portfolio-website-tnpr.onrender.com/link/get-link", {
+        const res = await axios.get("https://portfolio-website-tnpr.onrender.com/api/link/get-link", {
           withCredentials: true,
         });
         if (res.data?.success) {

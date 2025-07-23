@@ -44,7 +44,7 @@ const Contact = () => {
     // api implementation
     try {
       const res = await axios.post(
-        "https://portfolio-website-tnpr.onrender.com/link/sendEmail",
+        "https://portfolio-website-tnpr.onrender.com/api/link/sendEmail",
         input,
         { withCredentials: true }
       );

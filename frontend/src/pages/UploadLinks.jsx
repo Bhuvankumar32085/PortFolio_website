@@ -31,7 +31,7 @@ const UploadLinks = () => {
     setLoading(true);
     try {
       const res = await axios.post(
-        "https://portfolio-website-tnpr.onrender.com/link/upload-link",
+        "https://portfolio-website-tnpr.onrender.com/api/link/upload-link",
         input,
         { withCredentials: true }
       );

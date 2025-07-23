@@ -43,7 +43,7 @@ const VerifyOtp = () => {
     const finalOtp = otp.join("");
     try {
       const res = await axios.post(
-        "https://portfolio-website-tnpr.onrender.com/user/verify-otp",
+        "https://portfolio-website-tnpr.onrender.com/api/user/verify-otp",
         { otp: finalOtp },
         { withCredentials: true }
       );
