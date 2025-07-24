@@ -46,15 +46,4 @@ _You can add screenshots here of your homepage, projects section, or contact for
 - Node.js and npm installed
 - MongoDB URI (local or cloud - like Atlas)
 
-### 🛠 Backend Setup
 
-```bash
-# Clone the repo
-git clone https://github.com/YourUsername/portfolio-website.git
-cd portfolio-website/backend
-
-# Install backend dependencies
-npm install
-
-# Create .env file
-touch .env
